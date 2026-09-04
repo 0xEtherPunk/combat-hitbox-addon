@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "combathitboxaddon",
+  "version": "${version}",
+  "name": "Combat Hitbox Filter Addon",
+  "description": "Addon for Combat Hitboxes that allows filtering hitboxes for specific entities, items, projectiles, experience orbs, and mobs with a modern Sodium/YACL interface.",
+  "authors": [
+    "cypherjunkie"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/combathitboxaddon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.etherpunk.combathitboxaddon.CombatHitboxAddonClient"
+    ],
+    "modmenu": [
+      "com.etherpunk.combathitboxaddon.compat.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "combathitboxaddon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "yet_another_config_lib_v3": "*",
+    "combat-hitboxes": "*",
+    "modmenu": "*"
+  }
+}

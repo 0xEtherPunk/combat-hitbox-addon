@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.etherpunk.combathitboxaddon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HitboxFilterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

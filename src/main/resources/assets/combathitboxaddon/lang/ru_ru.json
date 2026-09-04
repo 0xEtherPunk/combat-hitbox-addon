@@ -1,0 +1,247 @@
+{
+  "combathitboxaddon.title": "Combat Hitbox Addon | Настройки фильтра",
+
+  "category.combathitboxaddon": "Combat Hitbox Addon",
+  "key.combathitboxaddon.open_config": "Открыть меню фильтра хитбоксов",
+  "key.combathitboxaddon.toggle_filter": "Включить/выключить фильтр хитбоксов",
+  "key.combathitboxaddon.toggle_hitboxes": "Включить/выключить хитбоксы (F3+B)",
+
+  "combathitboxaddon.msg.filter_enabled": "§a[Combat Hitbox Addon] §fФильтр хитбоксов: §aВКЛЮЧЕН",
+  "combathitboxaddon.msg.filter_disabled": "§c[Combat Hitbox Addon] §fФильтр хитбоксов: §cВЫКЛЮЧЕН (показываются все)",
+  "combathitboxaddon.msg.hitboxes_on": "§a[Combat Hitbox Addon] §fОтображение хитбоксов: §aВКЛ",
+  "combathitboxaddon.msg.hitboxes_off": "§c[Combat Hitbox Addon] §fОтображение хитбоксов: §cВЫКЛ",
+
+  "combathitboxaddon.category.general": "Общие настройки",
+  "combathitboxaddon.category.general.desc": "Основные параметры фильтрации и быстрое переключение категорий",
+
+  "combathitboxaddon.category.projectiles": "Снаряды и Предметы",
+  "combathitboxaddon.category.projectiles.desc": "Настройка отображения хитбоксов стрел, жемчуга, зелий, сфер опыта и предметов",
+
+  "combathitboxaddon.category.mobs": "Игроки и Монстры",
+  "combathitboxaddon.category.mobs.desc": "Настройка отображения хитбоксов для игроков, враждебных мобов и боссов",
+
+  "combathitboxaddon.category.animals": "Животные и Фауна",
+  "combathitboxaddon.category.animals.desc": "Настройка отображения хитбоксов для скота, питомцев, жителей и водных мобов",
+
+  "combathitboxaddon.category.vehicles": "Транспорт и Объекты",
+  "combathitboxaddon.category.vehicles.desc": "Настройка отображения хитбоксов кристаллов Энда, динамита, лодок и декораций",
+
+  "combathitboxaddon.category.custom": "Точный фильтр (Custom ID)",
+  "combathitboxaddon.category.custom.desc": "Черный или белый список конкретных ID сущностей (например, minecraft:bat)",
+
+  "combathitboxaddon.group.quick_categories": "Быстрые категории",
+  "combathitboxaddon.group.quick_categories.desc": "Включение и отключение целых групп сущностей одним переключателем",
+
+  "combathitboxaddon.group.items_xp": "Выпавшие предметы и Опыт",
+  "combathitboxaddon.group.items_xp.desc": "Хитбоксы лежащих на земле предметов и летающих сфер опыта",
+
+  "combathitboxaddon.group.arrows_weapons": "Стрелы и метательное оружие",
+  "combathitboxaddon.group.arrows_weapons.desc": "Хитбоксы стрел, спектральных стрел, трезубцев и поплавков",
+
+  "combathitboxaddon.group.throwables": "Бросаемые предметы",
+  "combathitboxaddon.group.throwables.desc": "Хитбоксы жемчуга Края, снежков, яиц и зелий",
+
+  "combathitboxaddon.group.fireballs_magic": "Огненные снаряды и магия",
+  "combathitboxaddon.group.fireballs_magic.desc": "Огненные шары, черепа визера, пули шалкера и заряды ветра",
+
+  "combathitboxaddon.group.players": "Игроки",
+  "combathitboxaddon.group.players.desc": "Отображение хитбоксов игроков",
+
+  "combathitboxaddon.group.common_monsters": "Обычные монстры",
+  "combathitboxaddon.group.common_monsters.desc": "Популярные враждебные мобы",
+
+  "combathitboxaddon.group.nether_raids": "Нижний мир, Рейды и Испытания",
+  "combathitboxaddon.group.nether_raids.desc": "Ифриты, гасты, разбойники, бризы и прочие мобы",
+
+  "combathitboxaddon.group.bosses": "Боссы",
+  "combathitboxaddon.group.bosses.desc": "Дракон Края, Визер, Варден, Древний страж",
+
+  "combathitboxaddon.group.farm_animals": "Мирные животные и Жители",
+  "combathitboxaddon.group.farm_animals.desc": "Домашний скот, питомцы, жители и големы",
+
+  "combathitboxaddon.group.ambient_aquatic": "Окружающий мир и Водные мобы",
+  "combathitboxaddon.group.ambient_aquatic.desc": "Летучие мыши, кальмары, рыбы, аксолотли",
+
+  "combathitboxaddon.group.combat_explosives": "Боевые и взрывные объекты",
+  "combathitboxaddon.group.combat_explosives.desc": "Кристаллы Энда и активированный ТНТ",
+
+  "combathitboxaddon.group.transport": "Транспорт",
+  "combathitboxaddon.group.transport.desc": "Лодки и вагонетки всех видов",
+
+  "combathitboxaddon.group.utility_objects": "Декорации и служебные объекты",
+  "combathitboxaddon.group.utility_objects.desc": "Стойки для брони, рамки, картины, падающие блоки",
+
+  "combathitboxaddon.option.enabled": "Включить фильтрацию хитбоксов",
+  "combathitboxaddon.option.enabled.desc": "Главный тумблер. Если выключен — отображаются все хитбоксы без фильтрации.",
+
+  "combathitboxaddon.option.force_hitboxes": "Всегда держать хитбоксы включенными",
+  "combathitboxaddon.option.force_hitboxes.desc": "Автоматически включает режим F3+B при входе в мир. Не нужно нажимать комбинацию клавиш каждый раз.",
+
+  "combathitboxaddon.option.show_eye_height": "Линия уровня глаз (Красная)",
+  "combathitboxaddon.option.show_eye_height.desc": "Отображать красную горизонтальную линию на уровне глаз сущностей.",
+
+  "combathitboxaddon.option.show_look_vector": "Линия направления взгляда (Синяя)",
+  "combathitboxaddon.option.show_look_vector.desc": "Отображать синюю линию, показывающую направление взгляда моба или игрока.",
+
+  "combathitboxaddon.option.show_items": "Выпавшие предметы (ItemEntity)",
+  "combathitboxaddon.option.show_items.desc": "Отображать хитбоксы лежащих на земле предметов (оружие, блоки, дроп). По умолчанию выключено для чистоты экрана.",
+
+  "combathitboxaddon.option.show_experience_orbs": "Сферы опыта (ExperienceOrb)",
+  "combathitboxaddon.option.show_experience_orbs.desc": "Отображать хитбоксы летающих шариков опыта. По умолчанию выключено во избежание визуального мусора.",
+
+  "combathitboxaddon.option.show_projectiles": "Все снаряды (Projectiles)",
+  "combathitboxaddon.option.show_projectiles.desc": "Глобальный переключатель для стрел, жемчуга, снежков и фаерболов.",
+
+  "combathitboxaddon.option.show_players": "Игроки (Players)",
+  "combathitboxaddon.option.show_players.desc": "Глобальный переключатель для всех игроков.",
+
+  "combathitboxaddon.option.show_hostile_mobs": "Враждебные монстры (Hostile Mobs)",
+  "combathitboxaddon.option.show_hostile_mobs.desc": "Глобальный переключатель для зомби, скелетов, криперов и т.д.",
+
+  "combathitboxaddon.option.show_passive_mobs": "Мирные животные (Passive Mobs)",
+  "combathitboxaddon.option.show_passive_mobs.desc": "Глобальный переключатель для коров, овец, жителей и т.д.",
+
+  "combathitboxaddon.option.show_ambient_mobs": "Окружающие и водные мобы (Ambient)",
+  "combathitboxaddon.option.show_ambient_mobs.desc": "Глобальный переключатель для летучих мышей, рыб, кальмаров.",
+
+  "combathitboxaddon.option.show_vehicles_and_objects": "Транспорт и объекты (Vehicles & Objects)",
+  "combathitboxaddon.option.show_vehicles_and_objects.desc": "Глобальный переключатель для лодок, вагонеток, кристаллов и ТНТ.",
+
+  "combathitboxaddon.option.show_misc_entities": "Прочие сущности (Misc)",
+  "combathitboxaddon.option.show_misc_entities.desc": "Отображать хитбоксы для редких или модовых сущностей, не попавших в стандартные группы.",
+
+  "combathitboxaddon.option.show_arrows": "Стрелы",
+  "combathitboxaddon.option.show_arrows.desc": "Отображать хитбоксы обычных стрел в полете.",
+
+  "combathitboxaddon.option.show_spectral_arrows": "Спектральные стрелы",
+  "combathitboxaddon.option.show_spectral_arrows.desc": "Отображать хитбоксы светящихся стрел.",
+
+  "combathitboxaddon.option.show_tridents": "Трезубцы",
+  "combathitboxaddon.option.show_tridents.desc": "Отображать хитбоксы брошенных трезубцев.",
+
+  "combathitboxaddon.option.show_fishing_bobbers": "Поплавки удочки",
+  "combathitboxaddon.option.show_fishing_bobbers.desc": "Отображать хитбокс крючка/поплавка удочки.",
+
+  "combathitboxaddon.option.show_ender_pearls": "Жемчуг Края",
+  "combathitboxaddon.option.show_ender_pearls.desc": "Отображать хитбоксы брошенных эндер-жемчужин.",
+
+  "combathitboxaddon.option.show_snowballs": "Снежки",
+  "combathitboxaddon.option.show_snowballs.desc": "Отображать хитбоксы брошенных снежков.",
+
+  "combathitboxaddon.option.show_eggs": "Яйца",
+  "combathitboxaddon.option.show_eggs.desc": "Отображать хитбоксы брошенных куриных яиц.",
+
+  "combathitboxaddon.option.show_potions": "Зелья и пузырьки опыта",
+  "combathitboxaddon.option.show_potions.desc": "Отображать хитбоксы взрывных/оседающих зелий и пузырьков опыта.",
+
+  "combathitboxaddon.option.show_fireballs": "Огненные шары",
+  "combathitboxaddon.option.show_fireballs.desc": "Хитбоксы огненных шаров гастов, ифритов и дракона.",
+
+  "combathitboxaddon.option.show_wither_skulls": "Черепа Визера",
+  "combathitboxaddon.option.show_wither_skulls.desc": "Хитбоксы летящих черепов Иссушителя.",
+
+  "combathitboxaddon.option.show_shulker_bullets": "Снаряды шалкера",
+  "combathitboxaddon.option.show_shulker_bullets.desc": "Хитбоксы самонаводящихся пуль шалкера.",
+
+  "combathitboxaddon.option.show_wind_charges": "Заряды ветра (Бриз)",
+  "combathitboxaddon.option.show_wind_charges.desc": "Хитбоксы снарядов ветра бризов и игроков (1.21).",
+
+  "combathitboxaddon.option.show_other_players": "Другие игроки",
+  "combathitboxaddon.option.show_other_players.desc": "Отображать хитбоксы других игроков в мультиплеере.",
+
+  "combathitboxaddon.option.show_self_player": "Свой хитбокс (в режиме от 3-го лица)",
+  "combathitboxaddon.option.show_self_player.desc": "Отображать хитбокс своего персонажа в виде сзади (F5). По умолчанию выключено, чтобы не заслонять обзор.",
+
+  "combathitboxaddon.option.show_zombies": "Зомби и утопленники",
+  "combathitboxaddon.option.show_zombies.desc": "Хитбоксы обычных зомби, кадаверов, утопленников и зомби-жителей.",
+
+  "combathitboxaddon.option.show_skeletons": "Скелеты и зимогоры",
+  "combathitboxaddon.option.show_skeletons.desc": "Хитбоксы скелетов, зимогоров, визер-скелетов и болотников (1.21).",
+
+  "combathitboxaddon.option.show_creepers": "Криперы",
+  "combathitboxaddon.option.show_creepers.desc": "Хитбоксы криперов.",
+
+  "combathitboxaddon.option.show_spiders": "Пауки",
+  "combathitboxaddon.option.show_spiders.desc": "Хитбоксы обычных и пещерных пауков.",
+
+  "combathitboxaddon.option.show_endermen": "Эндермены",
+  "combathitboxaddon.option.show_endermen.desc": "Хитбоксы странников Края.",
+
+  "combathitboxaddon.option.show_piglins": "Пиглины",
+  "combathitboxaddon.option.show_piglins.desc": "Хитбоксы пиглинов, брутов и зомбифицированных пиглинов.",
+
+  "combathitboxaddon.option.show_slimes": "Слизни и магма-кубы",
+  "combathitboxaddon.option.show_slimes.desc": "Хитбоксы слизней и лавовых кубов.",
+
+  "combathitboxaddon.option.show_phantoms": "Фантомы",
+  "combathitboxaddon.option.show_phantoms.desc": "Хитбоксы летающих фантомов.",
+
+  "combathitboxaddon.option.show_nether_monsters": "Мобы Нижнего мира",
+  "combathitboxaddon.option.show_nether_monsters.desc": "Ифриты, гасты, хоглины.",
+
+  "combathitboxaddon.option.show_illagers": "Разбойники и ведьмы",
+  "combathitboxaddon.option.show_illagers.desc": "Разбойники, поборники, заклинатели, ведьмы, разорители.",
+
+  "combathitboxaddon.option.show_breezes": "Бриз (Breeze)",
+  "combathitboxaddon.option.show_breezes.desc": "Хитбокс нового моба Бриза из Дворцов испытаний 1.21.",
+
+  "combathitboxaddon.option.show_bosses": "Боссы",
+  "combathitboxaddon.option.show_bosses.desc": "Дракон Края, Визер, Варден, Древний страж.",
+
+  "combathitboxaddon.option.show_farm_animals": "Домашний скот",
+  "combathitboxaddon.option.show_farm_animals.desc": "Коровы, овцы, свиньи, куры, кролики.",
+
+  "combathitboxaddon.option.show_pets_and_mounts": "Питомцы и ездовые животные",
+  "combathitboxaddon.option.show_pets_and_mounts.desc": "Лошади, ослы, мулы, ламы, верблюды, волки, кошки, попугаи.",
+
+  "combathitboxaddon.option.show_villagers": "Жители и големы",
+  "combathitboxaddon.option.show_villagers.desc": "Деревенские жители, странствующие торговцы, железные и снежные големы.",
+
+  "combathitboxaddon.option.show_sniffers_armadillos": "Нюхачи и броненосцы",
+  "combathitboxaddon.option.show_sniffers_armadillos.desc": "Нюхачи и броненосцы (1.21).",
+
+  "combathitboxaddon.option.show_bats": "Летучие мыши",
+  "combathitboxaddon.option.show_bats.desc": "Хитбоксы летучих мышей в пещерах.",
+
+  "combathitboxaddon.option.show_squids": "Кальмары",
+  "combathitboxaddon.option.show_squids.desc": "Обычные и светящиеся кальмары.",
+
+  "combathitboxaddon.option.show_fish": "Рыбы",
+  "combathitboxaddon.option.show_fish.desc": "Треска, лосось, тропические рыбы, иглобрюхи.",
+
+  "combathitboxaddon.option.show_aquatic_misc": "Дельфины, черепахи, аксолотли",
+  "combathitboxaddon.option.show_aquatic_misc.desc": "Прочие водные обитатели.",
+
+  "combathitboxaddon.option.show_end_crystals": "Кристаллы Энда (End Crystals)",
+  "combathitboxaddon.option.show_end_crystals.desc": "Хитбоксы кристаллов Энда (критично для Crystal PvP).",
+
+  "combathitboxaddon.option.show_tnt": "Активированный динамит (TNT)",
+  "combathitboxaddon.option.show_tnt.desc": "Хитбоксы подожженного динамита.",
+
+  "combathitboxaddon.option.show_boats": "Лодки",
+  "combathitboxaddon.option.show_boats.desc": "Обычные лодки и лодки с сундуками.",
+
+  "combathitboxaddon.option.show_minecarts": "Вагонетки",
+  "combathitboxaddon.option.show_minecarts.desc": "Вагонетки всех видов.",
+
+  "combathitboxaddon.option.show_armor_stands": "Стойки для брони",
+  "combathitboxaddon.option.show_armor_stands.desc": "Хитбоксы стоек для брони.",
+
+  "combathitboxaddon.option.show_item_frames": "Рамки для предметов",
+  "combathitboxaddon.option.show_item_frames.desc": "Обычные и светящиеся рамки.",
+
+  "combathitboxaddon.option.show_paintings": "Картины",
+  "combathitboxaddon.option.show_paintings.desc": "Хитбоксы картин на стенах.",
+
+  "combathitboxaddon.option.show_falling_blocks": "Падающие блоки",
+  "combathitboxaddon.option.show_falling_blocks.desc": "Падающий песок, гравий, наковальни.",
+
+  "combathitboxaddon.option.show_display_interaction": "Display & Interaction сущности",
+  "combathitboxaddon.option.show_display_interaction.desc": "Служебные сущности отображения (текстовые, блочные дисплеи) и интеракций.",
+
+  "combathitboxaddon.option.custom_list_is_whitelist": "Режим Белого Списка (Whitelist)",
+  "combathitboxaddon.option.custom_list_is_whitelist.desc": "Если ВКЛ — хитбоксы будут показаны ТОЛЬКО для сущностей из списка ниже. Если ВЫКЛ — список работает как черный список (скрывает указанных).",
+
+  "combathitboxaddon.option.custom_entity_ids": "Список ID сущностей (через запятую)",
+  "combathitboxaddon.option.custom_entity_ids.desc": "Введите ID сущностей через запятую или пробел (например: minecraft:bat, minecraft:item, custommod:mob)"
+}
