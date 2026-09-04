@@ -3,7 +3,6 @@ plugins {
     id 'maven-publish'
 }
 
-version = project.mod_version
 group = project.maven_group
 
 base {
@@ -40,12 +39,8 @@ dependencies {
     modLocalRuntime fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-processResources {
-    inputs.property "version", project.version
-
-    filesMatching("fabric.mod.json") {
-        expand "version": project.version
-    }
+tasks.withType(AbstractArchiveTask).configureEach {
+    archiveVersion.set('')
 }
 
 tasks.withType(JavaCompile).configureEach {
