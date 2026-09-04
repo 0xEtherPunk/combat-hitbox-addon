@@ -1,19 +1,14 @@
 # Combat Hitbox Addon
 
 <p align="center">
-  <img src="logo.png" alt="Combat Hitbox Addon" width="200" />
+  <img src="./logo.png" alt="Combat Hitbox Addon" width="200" />
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center"><b>non tagret</b><br/><img src="11.png" alt="non tagret" width="380" /></td>
-    <td align="center"><b>target hitbox</b><br/><img src="22.png" alt="target hitbox" width="380" /></td>
-  </tr>
-  <tr>
-    <td align="center"><b>hit</b><br/><img src="33.png" alt="hit" width="380" /></td>
-    <td align="center"><b>settings</b><br/><img src="44.png" alt="settings" width="380" /></td>
-  </tr>
-</table>
+| non tagret | target hitbox |
+| :---: | :---: |
+| <img src="./11.png" alt="non tagret" width="100%" /> | <img src="./22.png" alt="target hitbox" width="100%" /> |
+| **hit** | **settings** |
+| <img src="./33.png" alt="hit" width="100%" /> | <img src="./44.png" alt="settings" width="100%" /> |
 
 Fabric 1.21.1 client-side addon for [Combat Hitboxes](https://github.com/Sootysplash/Combat-Hitboxes) adding granular hitbox display filtering with a YetAnotherConfigLib (YACL) configuration interface.
 
