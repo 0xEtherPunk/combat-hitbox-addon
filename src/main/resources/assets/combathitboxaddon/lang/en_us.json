@@ -163,5 +163,15 @@
   "combathitboxaddon.option.custom_list_is_whitelist": "Whitelist Mode",
   "combathitboxaddon.option.custom_list_is_whitelist.desc": "If ON, hitboxes only show for entities in the custom list. If OFF, the list acts as a blacklist.",
   "combathitboxaddon.option.custom_entity_ids": "Custom Entity IDs (Comma-separated)",
-  "combathitboxaddon.option.custom_entity_ids.desc": "Comma- or space-separated list of entity IDs (e.g. minecraft:bat, minecraft:item, custommod:mob)"
+  "combathitboxaddon.option.custom_entity_ids.desc": "Comma- or space-separated list of entity IDs (e.g. minecraft:bat, minecraft:item, custommod:mob)",
+  "combathitboxaddon.option.show_silverfish": "Silverfish",
+  "combathitboxaddon.option.show_silverfish.desc": "Hitboxes for silverfish in strongholds and mountains.",
+  "combathitboxaddon.option.show_endermites": "Endermites",
+  "combathitboxaddon.option.show_endermites.desc": "Hitboxes for endermites spawned from ender pearls.",
+  "combathitboxaddon.option.show_vexes": "Vexes",
+  "combathitboxaddon.option.show_vexes.desc": "Hitboxes for flying vexes summoned by evokers.",
+  "combathitboxaddon.option.show_guardians": "Guardians",
+  "combathitboxaddon.option.show_guardians.desc": "Hitboxes for regular guardians in ocean monuments.",
+  "combathitboxaddon.option.show_shulkers": "Shulkers",
+  "combathitboxaddon.option.show_shulkers.desc": "Hitboxes for shulkers in end cities."
 }

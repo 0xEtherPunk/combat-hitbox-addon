@@ -37,7 +37,6 @@ public class HitboxFilter {
             return true;
         }
 
-        // Check custom entity ID blacklist / whitelist
         Identifier id = Registries.ENTITY_TYPE.getId(entity.getType());
         String idStr = (id != null) ? id.toString() : "";
         if (!config.customEntityIds.isEmpty()) {
@@ -50,17 +49,14 @@ public class HitboxFilter {
             }
         }
 
-        // 1. Dropped Items
         if (entity instanceof ItemEntity) {
             return config.showItems;
         }
 
-        // 2. Experience Orbs
         if (entity instanceof ExperienceOrbEntity) {
             return config.showExperienceOrbs;
         }
 
-        // 3. Players
         if (entity instanceof PlayerEntity) {
             if (!config.showPlayers) {
                 return false;
@@ -71,7 +67,6 @@ public class HitboxFilter {
             return config.showOtherPlayers;
         }
 
-        // 4. Projectiles
         if (entity instanceof ProjectileEntity) {
             if (!config.showProjectiles) {
                 return false;
@@ -91,7 +86,6 @@ public class HitboxFilter {
             return true;
         }
 
-        // 5. Hostile Mobs & Monsters
         if (entity instanceof Monster || entity instanceof SlimeEntity || entity instanceof PhantomEntity || entity instanceof GhastEntity) {
             if (!config.showHostileMobs) {
                 return false;
@@ -107,13 +101,17 @@ public class HitboxFilter {
             if (entity instanceof AbstractPiglinEntity || entity instanceof ZombifiedPiglinEntity) return config.showPiglins;
             if (entity instanceof SlimeEntity) return config.showSlimes;
             if (entity instanceof PhantomEntity) return config.showPhantoms;
-            if (entity instanceof BlazeEntity || entity instanceof GhastEntity || entity instanceof HoglinEntity) return config.showNetherMonsters;
+            if (entity instanceof SilverfishEntity) return config.showSilverfish;
+            if (entity instanceof EndermiteEntity) return config.showEndermites;
+            if (entity instanceof VexEntity) return config.showVexes;
+            if (entity instanceof GuardianEntity) return config.showGuardians;
+            if (entity instanceof ShulkerEntity) return config.showShulkers;
+            if (entity instanceof BlazeEntity || entity instanceof GhastEntity || entity instanceof HoglinEntity || entity instanceof ZoglinEntity) return config.showNetherMonsters;
             if (entity instanceof IllagerEntity || entity instanceof WitchEntity || entity instanceof RavagerEntity) return config.showIllagers;
             if (entity instanceof BreezeEntity) return config.showBreezes;
             return true;
         }
 
-        // 6. Passive Animals & Friendly NPCs
         if (entity instanceof AnimalEntity || entity instanceof VillagerEntity || entity instanceof WanderingTraderEntity || entity instanceof GolemEntity) {
             if (!config.showPassiveMobs) {
                 return false;
@@ -133,7 +131,6 @@ public class HitboxFilter {
             return true;
         }
 
-        // 7. Ambient & Aquatic Mobs
         if (entity instanceof AmbientEntity || entity instanceof WaterCreatureEntity) {
             if (!config.showAmbientMobs) {
                 return false;
@@ -145,7 +142,6 @@ public class HitboxFilter {
             return true;
         }
 
-        // 8. Vehicles & Objects
         if (entity instanceof EndCrystalEntity) return config.showEndCrystals;
         if (entity instanceof TntEntity) return config.showTnt;
         if (entity instanceof BoatEntity) return config.showBoats;
@@ -156,7 +152,6 @@ public class HitboxFilter {
         if (entity instanceof FallingBlockEntity) return config.showFallingBlocks;
         if (entity instanceof DisplayEntity || entity instanceof InteractionEntity) return config.showDisplayAndInteraction;
 
-        // Fallback for modded / other entities
         return config.showMiscEntities;
     }
 }

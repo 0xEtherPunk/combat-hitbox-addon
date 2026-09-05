@@ -18,24 +18,21 @@ public class HitboxFilterConfig {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static HitboxFilterConfig instance;
 
-    // === General Settings ===
     public boolean enabled = true;
     public boolean forceHitboxes = false;
     public boolean showEyeHeight = true;
     public boolean showLookVector = true;
 
-    // === Quick Category Toggles ===
-    public boolean showItems = false;               // Dropped items on ground (default off for clean screen)
-    public boolean showExperienceOrbs = false;      // XP orbs (default off)
-    public boolean showProjectiles = true;          // Projectiles master toggle
-    public boolean showPlayers = true;              // Players master toggle
-    public boolean showHostileMobs = true;          // Hostile mobs master toggle
-    public boolean showPassiveMobs = true;          // Passive mobs master toggle
-    public boolean showAmbientMobs = false;         // Ambient & aquatic master toggle
-    public boolean showVehiclesAndObjects = true;   // Vehicles & technical master toggle
-    public boolean showMiscEntities = true;         // Misc / other entities
+    public boolean showItems = false;
+    public boolean showExperienceOrbs = false;
+    public boolean showProjectiles = true;
+    public boolean showPlayers = true;
+    public boolean showHostileMobs = true;
+    public boolean showPassiveMobs = true;
+    public boolean showAmbientMobs = false;
+    public boolean showVehiclesAndObjects = true;
+    public boolean showMiscEntities = true;
 
-    // === Projectiles Detailed ===
     public boolean showArrows = true;
     public boolean showSpectralArrows = true;
     public boolean showTridents = true;
@@ -49,11 +46,9 @@ public class HitboxFilterConfig {
     public boolean showShulkerBullets = true;
     public boolean showWindCharges = true;
 
-    // === Players Detailed ===
-    public boolean showSelfPlayer = false;          // Local player hitbox in 3rd person (default off)
+    public boolean showSelfPlayer = false;
     public boolean showOtherPlayers = true;
 
-    // === Hostile Mobs Detailed ===
     public boolean showZombies = true;
     public boolean showSkeletons = true;
     public boolean showCreepers = true;
@@ -62,24 +57,26 @@ public class HitboxFilterConfig {
     public boolean showPiglins = true;
     public boolean showSlimes = true;
     public boolean showPhantoms = true;
+    public boolean showSilverfish = true;
+    public boolean showEndermites = true;
+    public boolean showVexes = true;
     public boolean showNetherMonsters = true;
     public boolean showIllagers = true;
     public boolean showBreezes = true;
+    public boolean showGuardians = true;
+    public boolean showShulkers = true;
     public boolean showBosses = true;
 
-    // === Passive Animals & NPCs Detailed ===
     public boolean showFarmAnimals = true;
     public boolean showPetsAndMounts = true;
     public boolean showVillagers = true;
     public boolean showSniffersAndArmadillos = true;
 
-    // === Ambient & Aquatic Detailed ===
     public boolean showBats = false;
     public boolean showSquids = true;
     public boolean showFish = true;
     public boolean showAquaticMisc = true;
 
-    // === Vehicles & Objects Detailed ===
     public boolean showEndCrystals = true;
     public boolean showTnt = true;
     public boolean showBoats = true;
@@ -90,7 +87,6 @@ public class HitboxFilterConfig {
     public boolean showFallingBlocks = true;
     public boolean showDisplayAndInteraction = true;
 
-    // === Custom Entity ID Rules ===
     public List<String> customEntityIds = new ArrayList<>();
     public boolean customListIsWhitelist = false;
 

@@ -7,7 +7,6 @@ import dev.isxander.yacl3.api.controller.StringControllerBuilder;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.text.Text;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -22,7 +21,6 @@ public class HitboxConfigScreen {
             .title(Text.translatable("combathitboxaddon.title"))
             .save(config::save)
 
-            // 1. GENERAL CATEGORY
             .category(ConfigCategory.createBuilder()
                 .name(Text.translatable("combathitboxaddon.category.general"))
                 .tooltip(Text.translatable("combathitboxaddon.category.general.desc"))
@@ -45,7 +43,6 @@ public class HitboxConfigScreen {
                     .build())
                 .build())
 
-            // 2. PROJECTILES & ITEMS
             .category(ConfigCategory.createBuilder()
                 .name(Text.translatable("combathitboxaddon.category.projectiles"))
                 .tooltip(Text.translatable("combathitboxaddon.category.projectiles.desc"))
@@ -81,7 +78,6 @@ public class HitboxConfigScreen {
                     .build())
                 .build())
 
-            // 3. PLAYERS & MONSTERS
             .category(ConfigCategory.createBuilder()
                 .name(Text.translatable("combathitboxaddon.category.mobs"))
                 .tooltip(Text.translatable("combathitboxaddon.category.mobs.desc"))
@@ -102,6 +98,9 @@ public class HitboxConfigScreen {
                     .option(createBoolOption("show_piglins", true, () -> config.showPiglins, val -> config.showPiglins = val))
                     .option(createBoolOption("show_slimes", true, () -> config.showSlimes, val -> config.showSlimes = val))
                     .option(createBoolOption("show_phantoms", true, () -> config.showPhantoms, val -> config.showPhantoms = val))
+                    .option(createBoolOption("show_silverfish", true, () -> config.showSilverfish, val -> config.showSilverfish = val))
+                    .option(createBoolOption("show_endermites", true, () -> config.showEndermites, val -> config.showEndermites = val))
+                    .option(createBoolOption("show_vexes", true, () -> config.showVexes, val -> config.showVexes = val))
                     .build())
                 .group(OptionGroup.createBuilder()
                     .name(Text.translatable("combathitboxaddon.group.nether_raids"))
@@ -109,6 +108,8 @@ public class HitboxConfigScreen {
                     .option(createBoolOption("show_nether_monsters", true, () -> config.showNetherMonsters, val -> config.showNetherMonsters = val))
                     .option(createBoolOption("show_illagers", true, () -> config.showIllagers, val -> config.showIllagers = val))
                     .option(createBoolOption("show_breezes", true, () -> config.showBreezes, val -> config.showBreezes = val))
+                    .option(createBoolOption("show_guardians", true, () -> config.showGuardians, val -> config.showGuardians = val))
+                    .option(createBoolOption("show_shulkers", true, () -> config.showShulkers, val -> config.showShulkers = val))
                     .build())
                 .group(OptionGroup.createBuilder()
                     .name(Text.translatable("combathitboxaddon.group.bosses"))
@@ -117,7 +118,6 @@ public class HitboxConfigScreen {
                     .build())
                 .build())
 
-            // 4. ANIMALS & AMBIENT
             .category(ConfigCategory.createBuilder()
                 .name(Text.translatable("combathitboxaddon.category.animals"))
                 .tooltip(Text.translatable("combathitboxaddon.category.animals.desc"))
@@ -139,7 +139,6 @@ public class HitboxConfigScreen {
                     .build())
                 .build())
 
-            // 5. VEHICLES & OBJECTS
             .category(ConfigCategory.createBuilder()
                 .name(Text.translatable("combathitboxaddon.category.vehicles"))
                 .tooltip(Text.translatable("combathitboxaddon.category.vehicles.desc"))
@@ -166,7 +165,6 @@ public class HitboxConfigScreen {
                     .build())
                 .build())
 
-            // 6. CUSTOM ENTITY FILTER
             .category(ConfigCategory.createBuilder()
                 .name(Text.translatable("combathitboxaddon.category.custom"))
                 .tooltip(Text.translatable("combathitboxaddon.category.custom.desc"))

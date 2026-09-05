@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "combathitboxaddon",
-  "version": "${version}",
-  "name": "Combat Hitbox Filter Addon",
-  "description": "Addon for Combat Hitboxes that allows filtering hitboxes for specific entities, items, projectiles, experience orbs, and mobs with a modern Sodium/YACL interface.",
+  "version": "*",
+  "name": "Combat Hitbox Addon",
+  "description": "Hitbox display filtering addon for Combat Hitboxes with YetAnotherConfigLib UI support.",
   "authors": [
-    "cypherjunkie"
+    "0xEtherPunk"
   ],
   "contact": {},
   "license": "MIT",

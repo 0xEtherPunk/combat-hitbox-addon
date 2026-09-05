@@ -20,7 +20,7 @@ Fabric 1.21.1 client-side addon for [Combat Hitboxes](https://github.com/Sootysp
 * **Dropped Items & Experience:** Independent toggles for dropped items (`ItemEntity`) and experience orbs (`ExperienceOrbEntity`) to remove visual clutter.
 * **Projectiles:** Master toggle and per-entity filters for arrows, spectral arrows, tridents, ender pearls, snowballs, eggs, potions, fireballs, wither skulls, shulker bullets, wind charges, and fishing bobbers.
 * **Players:** Separate options for multiplayer opponents/allies and third-person view (F5) self-hitbox.
-* **Hostile Mobs:** Common monsters (Zombies, Skeletons, Creepers, Spiders, Endermen, Piglins, Slimes, Phantoms), Nether mobs, Illagers, Trial Chamber Breezes, and bosses (Ender Dragon, Wither, Warden, Elder Guardian).
+* **Hostile Mobs:** Common monsters (Zombies, Skeletons, Creepers, Spiders, Endermen, Piglins, Slimes, Phantoms, Silverfish, Endermites, Vexes), Nether mobs (Blazes, Ghasts, Hoglins, Zoglins), Illagers, Trial Chamber Breezes, ocean Guardians, Shulkers, and bosses (Ender Dragon, Wither, Warden, Elder Guardian).
 * **Passive & Ambient:** Livestock, pets, villagers, golems, bats, squids, and aquatic creatures.
 * **Vehicles & Objects:** End crystals (crystal PvP), primed TNT, boats, minecarts, armor stands, item frames, paintings, falling blocks, and display entities.
 * **Custom Registry Filter:** Blacklist or whitelist arbitrary entity IDs by registry path (e.g. `minecraft:bat` or modded IDs).

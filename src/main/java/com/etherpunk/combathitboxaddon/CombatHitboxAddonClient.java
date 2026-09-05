@@ -22,12 +22,10 @@ public class CombatHitboxAddonClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        LOGGER.info("Initializing Combat Hitbox Filter Addon...");
+        LOGGER.info("Initializing Combat Hitbox Addon");
 
-        // Load config
         HitboxFilterConfig config = HitboxFilterConfig.getInstance();
 
-        // Register keybindings
         keyOpenConfig = KeyBindingHelper.registerKeyBinding(new KeyBinding(
             "key.combathitboxaddon.open_config",
             InputUtil.Type.KEYSYM,
@@ -49,7 +47,6 @@ public class CombatHitboxAddonClient implements ClientModInitializer {
             "category.combathitboxaddon"
         ));
 
-        // Tick events for key presses and force hitboxes
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (client == null) return;
 
@@ -81,7 +78,6 @@ public class CombatHitboxAddonClient implements ClientModInitializer {
                 }
             }
 
-            // Force hitboxes feature
             if (config.forceHitboxes && client.world != null && client.getEntityRenderDispatcher() != null) {
                 if (!client.getEntityRenderDispatcher().shouldRenderHitboxes()) {
                     client.getEntityRenderDispatcher().setRenderHitboxes(true);
@@ -89,6 +85,6 @@ public class CombatHitboxAddonClient implements ClientModInitializer {
             }
         });
 
-        LOGGER.info("Combat Hitbox Filter Addon initialized successfully!");
+        LOGGER.info("Combat Hitbox Addon initialized");
     }
 }
